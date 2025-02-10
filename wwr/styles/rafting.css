@@ -1,3 +1,62 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+header{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;        
+
+}
+
+header img{
+    max-width: 100%;
+    height:auto;
+}
+
+nav{
+   display: flex;
+   justify-content: flex-start; 
+}
+
+nav a {
+    margin-right: 20px;
+    
+}
+
+
+
+
+
+.navigation ul {
+    display:flex;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.navigation li {
+    margin-right: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    color:#007bff;
+}
+
+
+
 h1{
     font-family: "Roboto Condensed", serif;
     font-weight: 100;
@@ -31,20 +90,7 @@ p{
 }
 
 
-h2{
-    font-family: "Roboto Condensed", serif;
-    font-weight: 100;
-    font-size: 3rem;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
-    text-transform:uppercase;
-    letter-spacing: 2px;
-    line-height: 1.2;
-    margin-bottom: 20px;
-    padding: 10px 0;
-    border: 3px solid #003366;
-    border-radius: 5px;
-    background-color: #8A4FFF;
-}
+
 
 
 
@@ -84,7 +130,7 @@ body{
     background-image: url('images/hero.jpg');
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 50px;
     color: white;
     display: flex;
     justify-content: center;
@@ -115,3 +161,24 @@ div{
        margin-left: 20px;
        margin-bottom: 10px;
 }
+
+ section h2 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+     text-align: center;
+     
+ }
+
+ section img {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       gap: 20px;
+ }
+
+
+
+
+
