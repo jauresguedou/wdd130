@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Rafting Site Contact Us Page">
+    <meta name="author" content="Jaures Guedou">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header>
+    <img src="images/logo.jpg" alt="White Water Rafting logo">
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="trips.html">Trips</a>
+    <a href="contact.html">Contact Us</a>
+    </nav>
+    </header>
+    
+    <main>
+      <section class="contact-info">
+         <h2> contact us </h2>
+         <p>Feel free to reach out to us!</p>
+         <ul>
+           <li>
+            <strong>Phone:</strong> <a href="tel:+22997422710">+22997422710</a>
+           </li>
+           <li>
+            <strong>Email:</strong> <a href="sewlanguedou@gmail.com">sewlanguedou@gmail.com</a>
+           </li>
+           <li>
+            <strong>Address:</strong> <a href="123 Company St, city, country">123 Company St, city, country</a>
+           </li>
+         </ul>
+      </section>
+      <section class="employees-profiles">
+         <h2>Here is our team</h2>
+         <figure>
+            <img src="images/employee1.jpg" alt="employee1">
+            <p>Brad Wilson -CEO </p>
+         </figure>
+         <figure>
+          <img src="images/emloyee2.jpg" alt="employee2">
+          <p>Jane Clark - Customer Support Manager </p>
+         </figure>
+         <figure>
+          <img src="images/employee3.jpg" alt="employee3">
+          <p>Alison Brown - Marketing Director </p>
+         </figure>
+      <div class="form-container">
+        <form action="/submit_form" method="POST">
+          <label for="name">Your name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Your email:</label>
+          <input type="email" id="email" name="name" required>
+          <label for="purpose">Purpose of the message:</label>
+          <div class="radio-group">
+            <label>
+              <input type="radio" id="general" name="purpose" value="General Inquiry">
+              General Inquiry
+            </label> 
+            <label>
+               <input type="radio" id="reservation" name="purpose" value="reservation Question">
+               Reservation Question
+            </label>
+            <label>
+              <input type="radio" id="suggestion" name="purpose" value="website suggestion">
+              website suggestion
+            </label>
+          </div>
+          <label for="message">Your message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <div class="checkbox-group">
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Please subscribe me to the monthly newsletter </label>
+          </div>
+          <button type="submit">Submit Your message </button>
+        </form>
+          
+      </div>
+        
+            
+            
+    </main>
+    <footer>
+            <div class="container">
+               <p>&copy; 2025 Great Fall. All rights reserved.</p>
+            </div>
+            <nav class="sociallinks">
+               <a href="https://facebook.com">
+                 <img src="images/facebook.svg" alt="Facebook">
+               </a> 
+               <a href="https://twitter.com">                                    
+                 <img  src="images/twitter.svg" alt="Twitter"> 
+               </a>  
+               <a href="https://instragram.com">                             
+                 <img  src="images/instagram.svg" alt="Instagram">                                   
+               </a>
+           </nav>
+    </footer>
+    </body>
+</html>
