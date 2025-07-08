@@ -33,3 +33,16 @@ footer {
     border-top: 10px solid rgb(0 0 0 / 0.3);
     text-align: center;
 }
+
+h1{
+    border:2px solid rgb(0 0 0 /2);
+}
+nav {
+    padding-left: 1rem;
+    padding-right:1rem ;
+}
+nav a {
+    text-decoration: none;
+    color :black;
+    font-size: larger;
+}
