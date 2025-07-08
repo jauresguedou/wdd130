@@ -2,26 +2,30 @@ main {
     max-width: 840px;
 }
 
-aside{
+aside {
     width: 66rem;
     margin: 2rem;
     padding: 1rem;
     border: 4px solid rgb(0 0 0 / 0.3);
     background-color: #00ffff;
-    color:#bdb76b;
+    color: #bdb76b;
     text-align: center;
 }
 
 
 aside img {
     width: 200px;
-    height:auto;
+    height: auto;
 }
+
 main img {
     width: 150px;
     height: auto;
 }
-p {padding: 0;}
+
+p {
+    padding: 0;
+}
 
 
 footer {
