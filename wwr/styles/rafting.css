@@ -1,8 +1,8 @@
 :root {
    --primary-color:#2589BD;
    --secondary-color:#187795;
-   --accent1-color: #A3B4A2;
-   --accent2-color:#cdc6aef6;
+   --accent1-color: #a39990;
+   --accent2-color:#cdc0aef6;
    --heading-font: "Oswald", sans-serif;
    --body-font: "Montserrat", sans-serif;
 }
@@ -45,6 +45,7 @@ h2, h1 {
 
 .socialmedia a {
     text-decoration: none;
+
 }
 
 .hero {
