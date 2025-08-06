@@ -3,6 +3,7 @@ fieldset {
     flex-direction: column;
     margin: 20px;
     padding: 20px;
+    border-color: blue;
 
 }
 
@@ -14,7 +15,7 @@ input[type="text"] {
 
 button[type="submit"] {
     width: 200px;
-    margin-left: 250px;
+    margin-left: 310px;
     padding: 5px;
     font-size: large;
     background-color: rgba(255, 127, 80, 0.493);
@@ -28,7 +29,8 @@ input[type="checkbox"] {
 }
 
 label {
-    width: 500px;
+    display: flex;
+    flex-direction: column;
 }
 
 

@@ -27,66 +27,132 @@
     </header>
     <main>
         <section class="contact-info">
-                <div class="contact">
-                    <h2>Contact Details</h2>
-                    <address>Address:Rue des Manguiers 01 BP 2345 COTONOU BÉNIN</address>
-                    <p>Phone: <a href="tel: +15551234567">+1 (555) 123-4567</a></p>
-                    <p>Email: <a href="mailto: info@amazonwhitewaterrafting.com">info@amazonwhitewaterrafting.com</a></p>
-                </div>
-                <div class="embeded">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d107603.14652571871!2d2.3059719573813386!3d6.372707363105254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRue%20des%20Manguiers%2001%20BP%202345%20COTONOU%20B%C3%89NIN!5e1!3m2!1sfr!2sbj!4v1754487937691!5m2!1sfr!2sbj" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="contact">
+    <h2>Contact Details</h2>
+    <address>
+      Address: Rue des Manguiers 01 BP 2345 COTONOU BÉNIN
+    </address>
 
-                </div>
-        </section>
-        <section class="message">
-              
-              <div class="message-form">
-                 <h2>Send Us A Message</h2>
-                <form action="" method="get">
-                    <fieldset>
-                        <label for="username">
-                            Username*
-                            <input type="text" name="username" id="username" title="your-name" required autocomplete >
-                        </label>
-                        <label for="user-email">
-                            User email*  
-                            <input type="text" name="mail" id="user-email" title="your-email" required autocomplete>
-                        </label>
+    <p>
+      Phone:
+      <a href="tel:+15551234567">+1 (555) 123-4567</a>
+    </p>
 
-                    </fieldset>
-                    <fieldset>
-                        <legend>Purpose of The Message</legend>
-                        <label for="general-inquiry">
-                           <input type="radio" name="inquiry" id="general-inquiry" title="general-inquiry">
-                           General Inquiry
-                        </label>
-                        <label for="reservation-question">
-                           <input type="radio" name="inquiry" id="reservation-question" title="general-inquiry">
-                           Reservation Question
-                        </label>
-                        <label for="website-suggestion">
-                           <input type="radio" name="inquiry" id="website-suggestion" title="general-inquiry">
-                           Website Suggestion
+    <p>
+      Email:
+      <a href="mailto:info@amazonwhitewaterrafting.com">
+        info@amazonwhitewaterrafting.com
+      </a>
+    </p>
+  </div>
 
-                        </label>
-                    </fieldset>
-                    <fieldset>
-                        <label for="draft">Draft Your Message</label>
-                        <textarea name="message" id="draft" rows="5" required ></textarea>
-                    
-                        <label for="check">Please subscribe me to the monthly newsletter
-                            <input type="checkbox" name="check" id="check" title="just-check" value="yes" required>
-                        </label>
+  <div class="embeded">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d107603.14652571871!2d2.3059719573813386!3d6.372707363105254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRue%20des%20Manguiers%2001%20BP%202345%20COTONOU%20B%C3%89NIN!5e1!3m2!1sfr!2sbj!4v1754487937691!5m2!1sfr!2sbj"
+      width="600"
+      height="450"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
 
+---
 
-                        <label for="submit">
-                            <button type="submit" class="btn-primary">Send Your Message</button>
-                        </label>
-                        
-                    </fieldset>
+<section class="message">
+  <div class="message-form">
+    <h2>Send Us A Message</h2>
 
-                </form>
-              </div>
+    <form action="#" method="get">
+      <fieldset>
+        <label for="username">
+          Username*
+          <input
+            type="text"
+            name="username"
+            id="username"
+            title="your-name"
+            required
+            autocomplete="name">
+        </label>
+
+        <label for="user-email">
+          User email*
+          <input
+            type="email"
+            name="mail"
+            id="user-email"
+            title="your-email"
+            required
+            autocomplete="email">
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Purpose of The Message</legend>
+
+        <label for="general-inquiry">
+          <input
+            type="radio"
+            name="inquiry"
+            id="general-inquiry"
+            title="general-inquiry">
+          General Inquiry
+        </label>
+
+        <label for="reservation-question">
+          <input
+            type="radio"
+            name="inquiry"
+            id="reservation-question"
+            title="reservation-question">
+          Reservation Question
+        </label>
+
+        <label for="website-suggestion">
+          <input
+            type="radio"
+            name="inquiry"
+            id="website-suggestion"
+            title="website-suggestion">
+          Website Suggestion
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label for="draft">
+          Draft Your Message
+        </label>
+        <textarea
+          name="message"
+          id="draft"
+          rows="5"
+          required>
+        </textarea>
+
+        <label for="check">
+          Please subscribe me to the monthly newsletter
+          <input
+            type="checkbox"
+            name="check"
+            id="check"
+            title="just-check"
+            value="yes"
+            required>
+        </label>
+      </fieldset>
+
+      <button
+        id="submit"
+        type="submit"
+        class="btn-primary">
+        Send Your Message
+      </button>
+    </form>
+  </div>
+</section>
+
 
         </section>
         <section class="rafting-team">
