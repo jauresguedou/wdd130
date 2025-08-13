@@ -208,3 +208,148 @@ p {
 .history .align img {
     margin-top: 28px;
 }
+
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: #2589BD;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+button {
+    width: 90px;
+    margin-left: 350px;
+    padding: 5px;
+    background-color: rgba(100, 148, 237, 0.644);
+    border-radius: 10px;
+}
+
+.call-to-action p {
+    text-align: center;
+}
+
+.call-to-action a {
+  margin-left: 370px;
+}
+
+
+.offerings h2 {
+    text-align: center;
+}
+
+.offer img {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.904) ;
+}
+
+
+.offer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-left: 100px;
+}
+
+
+
+.thrill figcaption {
+    margin-left: 16px;
+}
+
+
+.float figcaption {
+    margin-left: 35px;
+}
+
+.splash figcaption {
+    margin-left: 27px;
+}
+
+.trip-call a {
+    margin-left: 320px;
+}
+
+.trip1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.trip1-description h3{
+    text-align: center;
+}
+
+.trip1-image figure {
+     margin-left: 200px;
+}
+.trip1-image figcaption {
+    margin-left: 150px;
+}
+
+
+
+.trip1 h2 {
+    text-align: center;
+}
+
+.trip1 p {
+    text-align: center;
+}
+
+
+.trip2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.trip2 h2{
+    text-align: center;
+}
+
+.trip2 p {
+    text-align: center;
+}
+.trip2-image figure {
+     margin-left: 200px;
+}
+
+.trip2-description h3 {
+    text-align: center;
+} 
+.trip2-image figcaption {
+    margin-left: 140px;
+}
+
+.trip3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.trip3 h2,p {
+    text-align: center;
+}
+
+.trip3-description h3{
+    text-align: center;
+}
+
+.trip3-image figure {
+     margin-left: 200px;
+}
+.trip3image figcaption {
+    margin-left: 140px;
+}
+
+
+table {
+    margin-left: 30px;
+}
